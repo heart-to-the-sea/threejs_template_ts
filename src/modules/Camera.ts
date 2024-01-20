@@ -32,7 +32,7 @@ export default class Camera {
     );
     this.position.set(0, 0, 0);
     camera.lookAt(0, 0, 0);
-    camera.position.set(5, 1, 5); // 设置相机初始位置
+    camera.position.set(0, 0, 150); // 设置相机初始位置
     return camera;
   }
   createOrbitControl() {
